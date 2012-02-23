@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="69">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+      <itemPath>src/include/DocFrec.h</itemPath>
+      <itemPath>src/include/DocPeso.h</itemPath>
+      <itemPath>src/include/Index.h</itemPath>
+      <itemPath>src/include/Peso.h</itemPath>
+      <itemPath>src/include/PorterStemmer.h</itemPath>
+      <itemPath>src/include/Result.h</itemPath>
+      <itemPath>src/include/Searcher.h</itemPath>
+      <itemPath>src/include/Similarity.h</itemPath>
+      <itemPath>src/include/Stopper.h</itemPath>
+      <itemPath>src/include/Word.h</itemPath>
+      <itemPath>src/include/WordFile.h</itemPath>
+      <itemPath>src/include/document.h</itemPath>
+      <itemPath>src/include/normalize.h</itemPath>
+      <itemPath>src/include/utils.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+      <itemPath>src/DocFrec.cpp</itemPath>
+      <itemPath>src/DocPeso.cpp</itemPath>
+      <itemPath>src/Index.cpp</itemPath>
+      <itemPath>src/Peso.cpp</itemPath>
+      <itemPath>src/PorterStemmer.c</itemPath>
+      <itemPath>src/Result.cpp</itemPath>
+      <itemPath>src/Searcher.cpp</itemPath>
+      <itemPath>src/Similarity.cpp</itemPath>
+      <itemPath>src/Stopper.cpp</itemPath>
+      <itemPath>src/Word.cpp</itemPath>
+      <itemPath>src/WordFile.cpp</itemPath>
+      <itemPath>src/document.cpp</itemPath>
+      <itemPath>src/main.cpp</itemPath>
+      <itemPath>src/normalize.cpp</itemPath>
+      <itemPath>src/utils.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
